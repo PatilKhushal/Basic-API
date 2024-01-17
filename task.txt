@@ -1,0 +1,11 @@
+GET /api/users -> give all users                                            (DONE)
+GET /api/users/1 -> give user with id 1                                     (DONE)
+GET /api/users/2 -> give user with id 2                                     (DONE)
+    
+POST /api/users -> create new user                                          (DONE)
+
+PATCH /api/users/1 -> edit the user with id 1                               (DONE)
+PATCH /api/users/2 -> edit the user with id 2                               (DONE)
+
+DELETE /api/users/1 -> delte user with id 1                                 (DONE)
+DELETE /api/users/2 -> delte user with id 2                                 (DONE)
