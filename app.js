@@ -11,8 +11,9 @@ app.use(express.urlencoded({extended : false}));
 app.use(logRequest('log.txt'));
 
 // Connection to MongoDB
-connectMongoDB('mongodb://127.0.0.1:27017/tut12')
-    .then((val) => console.log('Connected to mongodb://127.0.0.1:27017/tut12'))
+const dbURL = "mongodb://127.0.0.1:27017/Github";
+connectMongoDB(dbURL)
+    .then((val) => console.log(`Connected to ${dbURL}`))
     .catch((err) => console.log(err));
 
 

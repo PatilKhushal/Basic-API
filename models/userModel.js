@@ -35,6 +35,6 @@ const userSchema = mongoose.Schema({
     },
 });
 // Creating Model
-const userModel =  mongoose.model('user', userSchema);
+const userModel =  mongoose.model('BasicAPI', userSchema);
 
 module.exports = userModel;
